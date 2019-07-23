@@ -14,6 +14,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Profile;
 
 import java.time.LocalDate;
+import java.util.prefs.Preferences;
 
 
 @SpringBootApplication
@@ -24,6 +25,8 @@ public class BlogSpringApplication {
     public static void main(String[] args) {
 
         SpringApplication.run(BlogSpringApplication.class, args);
+
+        System.out.println("Wwelcome Mesage");
     }
 
     @Bean
